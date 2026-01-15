@@ -24,7 +24,7 @@ elif now.hour == 11 and now.minute >= 59:
 else:
     print("Nije podne. Top ostaje pun. (Safety check)")
     # Ako želite testirati "na silu", zakomentirajte liniju ispod:
-    exit()
+    #exit()
 
 # 3. PUCAJ (Šalji na Facebook)
 url = f"https://graph.facebook.com/v18.0/{PAGE_ID}/feed"
